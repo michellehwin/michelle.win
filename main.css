@@ -33,6 +33,10 @@ body {
     }
  }
 
+.work .row a {
+  display: inline-block;
+}
+
  /* unvisited link */
 a:link {
   color: black;
@@ -51,4 +55,10 @@ a:hover {
 /* selected link */
 a:active {
   color: black;
+}
+
+.calendar {
+  margin: auto;
+  margin-top: 2rem;
+  text-align: center;
 }
